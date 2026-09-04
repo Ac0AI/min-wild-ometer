@@ -55,7 +55,7 @@ export const metadata: Metadata = {
       "Bold neon mutation meter. Current wild portrait, stages 0→8, and wild sightings. Tracking @minchoi · built for fun.",
     images: [
       {
-        url: "/min-wild-current.jpg",
+        url: "/min-wild-current.png",
         width: 1024,
         height: 1024,
         alt: "Current MAXIMUM WILD mutated portrait",
@@ -68,11 +68,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "★ WILD-O-METER ★",
     description: "How wild is it getting out here? Check the meter. 🔥🎰✨",
-    images: ["/min-wild-current.jpg"],
+    images: ["/min-wild-current.png"],
     creator: "@minchoi",
   },
   icons: {
-    icon: "/min-wild-8.jpg",
+    icon: "/min-wild-8.png",
   },
 };
 

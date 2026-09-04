@@ -1,2 +1,12 @@
-node_modules
-.next
+/node_modules
+/.pnp
+.pnp.*
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+*-debug.log*
+.env*.local
+*.tsbuildinfo
+next-env.d.ts

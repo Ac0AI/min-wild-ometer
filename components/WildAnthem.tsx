@@ -48,7 +48,7 @@ export default function WildAnthem() {
       : status === "paused"
         ? "▶ RESUME THE CHAOS!!!"
         : status === "missing"
-          ? "🔇 ANTHEM MISSING 😢"
+          ? "🔇 ANTHEM MISSING 😭"
           : "▶ PLAY THE WILD ANTHEM!!!";
 
   return (
