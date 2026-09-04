@@ -204,6 +204,9 @@ export default async function HomePage() {
         <WildMarquee reverse />
       </div>
 
+      {/* Latest wild tweets early — times front and center */}
+      <SightingsList sightings={data.sightings} />
+
       {/* Compact current-form note — no duplicate giant portrait */}
       <section id="portrait" className="relative mx-auto max-w-2xl px-4 py-8 text-center">
         <span className="sticker sticker-new mb-2 inline-flex text-[10px]">★ CURRENT FORM ★</span>
@@ -214,13 +217,11 @@ export default async function HomePage() {
           This Is Min Right Now
         </h2>
         <p className="mx-auto mt-3 max-w-md font-body text-sm font-bold text-white/75">
-          The portrait up top mutates as the wild count climbs. Scroll for stage cards &amp; sightings —
-          same energy, more chaos.
+          The portrait up top mutates as the wild count climbs. Stage cards below — same energy, more chaos.
         </p>
       </section>
 
       <StageGallery stages={data.stages} />
-      <SightingsList sightings={data.sightings} />
 
       <footer className="mx-auto mt-8 max-w-3xl border-t-4 border-dashed border-neon-pink/50 px-4 py-10 text-center">
         <p className="mb-3 font-display text-2xl tracking-wide text-neon-yellow animate-flicker">
