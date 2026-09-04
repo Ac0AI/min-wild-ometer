@@ -3,34 +3,124 @@
   "lastUpdated": "2026-09-04T12:35:47Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
-    { "level": 0, "image": "/min-wild-0.jpg", "caption": "Baseline \u2014 calm Min" },
-    { "level": 1, "image": "/min-wild-1.jpg", "caption": "Slightly spicy \u2014 +sat" },
-    { "level": 2, "image": "/min-wild-2.jpg", "caption": "Hue slipping\u2026" },
-    { "level": 3, "image": "/min-wild-3.jpg", "caption": "RGB split engaged" },
-    { "level": 4, "image": "/min-wild-4.jpg", "caption": "Noise & neon creeping in" },
-    { "level": 5, "image": "/min-wild-5.jpg", "caption": "Glitch + wave distortion" },
-    { "level": 6, "image": "/min-wild-6.jpg", "caption": "Psychedelic posterize" },
-    { "level": 7, "image": "/min-wild-7.jpg", "caption": "Full neon swirl" },
-    { "level": 8, "image": "/min-wild-8.jpg", "caption": "MAXIMUM WILD" }
+    {
+      "level": 0,
+      "image": "/min-wild-0.jpg",
+      "caption": "Baseline — calm Min"
+    },
+    {
+      "level": 1,
+      "image": "/min-wild-1.jpg",
+      "caption": "Slightly spicy — +sat"
+    },
+    {
+      "level": 2,
+      "image": "/min-wild-2.jpg",
+      "caption": "Hue slipping…"
+    },
+    {
+      "level": 3,
+      "image": "/min-wild-3.jpg",
+      "caption": "RGB split engaged"
+    },
+    {
+      "level": 4,
+      "image": "/min-wild-4.jpg",
+      "caption": "Noise & neon creeping in"
+    },
+    {
+      "level": 5,
+      "image": "/min-wild-5.jpg",
+      "caption": "Glitch + wave distortion"
+    },
+    {
+      "level": 6,
+      "image": "/min-wild-6.jpg",
+      "caption": "Psychedelic posterize"
+    },
+    {
+      "level": 7,
+      "image": "/min-wild-7.jpg",
+      "caption": "Full neon swirl"
+    },
+    {
+      "level": 8,
+      "image": "/min-wild-8.jpg",
+      "caption": "MAXIMUM WILD"
+    }
   ],
   "sightings": [
-    { "id": "2091478181840584857", "text": "Ok Grok Bot is insane. People can\u2019t stop finding new ways to make money, automate work, and run businesses with it. 10 wild examples: 1. Grok Bot agents can now de\u2026", "url": "https://x.com/minchoi/status/2091478181840584857", "at": "2026-08-23T10:50:30Z" },
-    { "id": "2075959167689396374", "text": "Ok Grok 4.5 is insane. People are already building things that shouldn't be possible this fast. 10 wild examples: 1/ Grok 4.5 built a playable FPS game in under\u2026", "url": "https://x.com/minchoi/status/2075959167689396374", "at": "2026-07-11T15:03:29Z" },
-    { "id": "2075613553495601157", "text": "Less than 24 hours ago, OpenAI dropped GPT-5.6. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. GPT-5.6 recreated Manhatt\u2026", "url": "https://x.com/minchoi/status/2075613553495601157", "at": "2026-07-10T16:10:08Z" },
-    { "id": "2073791465713480109", "text": "Less than 99 hours ago, Anthropic brought back Claude Fable 5. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. Claude porte\u2026", "url": "https://x.com/minchoi/status/2073791465713480109", "at": "2026-07-05T15:29:49Z" },
-    { "id": "2065559239486304733", "text": "Ok Claude Fable 5 is insane. People can't stop building. 10 wild examples. 1. Claude Fable built a World of Warcraft clone in one shot A playable online world g\u2026", "url": "https://x.com/minchoi/status/2065559239486304733", "at": "2026-06-12T22:17:53Z" },
-    { "id": "2064175764900299126", "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho\u2026", "url": "https://x.com/minchoi/status/2064175764900299126", "at": "2026-06-09T02:40:27Z" },
-    { "id": "2050252575652409468", "text": "3D development just changed forever... Claude can now officially talk directly to Blender, Autodesk Fusion, Adobe, Ableton, Affinity, Splice, SketchUp, and Resolume... Now anyone can build crazy 3D scenes + models with just prompts. 10 wild examples 1. Insanely easy setup Claude\u2026", "url": "https://x.com/minchoi/status/2050252575652409468", "at": "2026-05-01T16:34:40Z" },
-    { "id": "2046630731397382552", "text": "This is wild. Chinese researchers just dropped OpenGame. This AI agent can build full playable web games from a prompt. 100% Open Source CODE + DEMO in comments\u2026", "url": "https://x.com/minchoi/status/2046630731397382552", "at": "2026-04-21T16:42:45Z" },
-    { "id": "2045705871527653794", "text": "It's over. Claude Design is generating insane UI, designs & animations from just text. Design will never be the same \ud83e\udd2f 10 wild examples: 1. Generate email marketing t\u2026", "url": "https://x.com/minchoi/status/2045705871527653794", "at": "2026-04-19T03:27:41Z" },
-    { "id": "2041727887498170788", "text": "Gemma 4 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples: 1. Understand raw video (Gemma 4) + Segment (SAM 3) + Track\u2026", "url": "https://x.com/minchoi/status/2041727887498170788", "at": "2026-04-08T04:00:36Z" }
+    {
+      "id": "2091478181840584857",
+      "text": "Ok Grok Bot is insane. People can’t stop finding new ways to make money, automate work, and run businesses with it. 10 wild examples: 1. Grok Bot agents can now de…",
+      "url": "https://x.com/minchoi/status/2091478181840584857",
+      "at": "2026-08-23T10:50:30Z"
+    },
+    {
+      "id": "2075959167689396374",
+      "text": "Ok Grok 4.5 is insane. People are already building things that shouldn't be possible this fast. 10 wild examples: 1/ Grok 4.5 built a playable FPS game in under…",
+      "url": "https://x.com/minchoi/status/2075959167689396374",
+      "at": "2026-07-11T15:03:29Z"
+    },
+    {
+      "id": "2075613553495601157",
+      "text": "Less than 24 hours ago, OpenAI dropped GPT-5.6. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. GPT-5.6 recreated Manhatt…",
+      "url": "https://x.com/minchoi/status/2075613553495601157",
+      "at": "2026-07-10T16:10:08Z"
+    },
+    {
+      "id": "2073791465713480109",
+      "text": "Less than 99 hours ago, Anthropic brought back Claude Fable 5. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. Claude porte…",
+      "url": "https://x.com/minchoi/status/2073791465713480109",
+      "at": "2026-07-05T15:29:49Z"
+    },
+    {
+      "id": "2065559239486304733",
+      "text": "Ok Claude Fable 5 is insane. People can't stop building. 10 wild examples. 1. Claude Fable built a World of Warcraft clone in one shot A playable online world g…",
+      "url": "https://x.com/minchoi/status/2065559239486304733",
+      "at": "2026-06-12T22:17:53Z"
+    },
+    {
+      "id": "2064175764900299126",
+      "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho…",
+      "url": "https://x.com/minchoi/status/2064175764900299126",
+      "at": "2026-06-09T02:40:27Z"
+    },
+    {
+      "id": "2050252575652409468",
+      "text": "3D development just changed forever... Claude can now officially talk directly to Blender, Autodesk Fusion, Adobe, Ableton, Affinity, Splice, SketchUp, and Resolume... Now anyone can build crazy 3D scenes + models with just prompts. 10 wild examples 1. Insanely easy setup Claude…",
+      "url": "https://x.com/minchoi/status/2050252575652409468",
+      "at": "2026-05-01T16:34:40Z"
+    },
+    {
+      "id": "2046630731397382552",
+      "text": "This is wild. Chinese researchers just dropped OpenGame. This AI agent can build full playable web games from a prompt. 100% Open Source CODE + DEMO in comments…",
+      "url": "https://x.com/minchoi/status/2046630731397382552",
+      "at": "2026-04-21T16:42:45Z"
+    },
+    {
+      "id": "2045705871527653794",
+      "text": "It's over. Claude Design is generating insane UI, designs & animations from just text. Design will never be the same 🤯 10 wild examples: 1. Generate email marketing t…",
+      "url": "https://x.com/minchoi/status/2045705871527653794",
+      "at": "2026-04-19T03:27:41Z"
+    },
+    {
+      "id": "2041727887498170788",
+      "text": "Gemma 4 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples: 1. Understand raw video (Gemma 4) + Segment (SAM 3) + Track…",
+      "url": "https://x.com/minchoi/status/2041727887498170788",
+      "at": "2026-04-08T04:00:36Z"
+    }
   ],
   "meta": {
     "avatarSource": "https://unavatar.io/twitter/minchoi",
     "avatarResolved": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_400x400.jpg",
     "avatarNote": "400x400 public profile image via unavatar.io / pbs.twimg.com",
-    "scrapeSources": ["https://threadreaderapp.com/user/minchoi", "https://twiscan.com/en/x/minchoi", "https://unrollnow.com/status/2081414653146460668"],
+    "scrapeSources": [
+      "https://threadreaderapp.com/user/minchoi",
+      "https://twiscan.com/en/x/minchoi",
+      "https://unrollnow.com/status/2081414653146460668"
+    ],
     "wildCountNote": "Case-insensitive whole-word count of \"wild\" across ~22 recent public thread openers + bio scraped from Thread Reader / UnrollNow / twiscan (not full timeline)."
   },
-  "countNote": "X API full-archive: whole-word wild in original tweets (excl. RTs/replies), Apr 2023\u2013now. Bio has +1 more."
+  "countNote": "X API full-archive: whole-word wild in original tweets (excl. RTs/replies), Apr 2023–now. Bio has +1 more."
 }

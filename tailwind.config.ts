@@ -79,7 +79,7 @@ const config: Config = {
         },
         sparkle: {
           "0%, 100%": { opacity: "1", transform: "scale(1) rotate(0deg)" },
-          "50%": { transform: "scale(1.35) rotate(18deg)", opacity: "0.35" },
+          "50%": { opacity: "0.35", transform: "scale(1.35) rotate(18deg)" },
         },
         bounceSoft: {
           "0%, 100%": { transform: "translateY(0) rotate(-6deg)" },
