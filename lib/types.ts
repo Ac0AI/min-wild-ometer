@@ -17,4 +17,11 @@ export type WildData = {
   currentImage: string;
   stages: WildStage[];
   sightings: WildSighting[];
+  meta?: {
+    avatarSource?: string;
+    avatarResolved?: string;
+    avatarNote?: string;
+    scrapeSources?: string[];
+    wildCountNote?: string;
+  };
 };
