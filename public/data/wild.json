@@ -1,22 +1,22 @@
 {
-  "wildCount": 925,
-  "lastUpdated": "2026-09-09T11:43:01Z",
+  "wildCount": 926,
+  "lastUpdated": "2026-09-09T15:44:23Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
       "level": 0,
       "image": "/min-wild-0.jpg",
-      "caption": "Baseline \u2014 calm Min"
+      "caption": "Baseline — calm Min"
     },
     {
       "level": 1,
       "image": "/min-wild-1.jpg",
-      "caption": "Slightly spicy \u2014 +sat"
+      "caption": "Slightly spicy — +sat"
     },
     {
       "level": 2,
       "image": "/min-wild-2.jpg",
-      "caption": "Hue slipping\u2026"
+      "caption": "Hue slipping…"
     },
     {
       "level": 3,
@@ -51,8 +51,14 @@
   ],
   "sightings": [
     {
+      "id": "2097706153220174012",
+      "text": "It's happening.  AI is getting crazy good at 3D.  GPT-6 Astra is building 3D games, Blender scenes, anatomy + real-world objects from almost nothing.  10 wil…",
+      "url": "https://x.com/minchoi/status/2097706153220174012",
+      "at": "2026-09-09T15:18:15Z"
+    },
+    {
       "id": "2097641752169427250",
-      "text": "Wild... just tested Sketch with ChatGPT Images 2.5 \ud83e\udd2f https://t.co/DCJgwsONVP https://t.co/8Ioz0D5zZu",
+      "text": "Wild... just tested Sketch with ChatGPT Images 2.5 🤯 https://t.co/DCJgwsONVP https://t.co/8Ioz0D5zZu",
       "url": "https://x.com/minchoi/status/2097641752169427250",
       "at": "2026-09-09T11:02:20Z"
     },
@@ -64,73 +70,73 @@
     },
     {
       "id": "2096620477619810739",
-      "text": "Less than 91 hours ago, OpenAI dropped GPT-6 Astra.  Some are \"feeling\" GPT-6 Astra has reached AGI level.  Anatomy. LEGO sets. GTA games. \u2026",
+      "text": "Less than 91 hours ago, OpenAI dropped GPT-6 Astra.  Some are \"feeling\" GPT-6 Astra has reached AGI level.  Anatomy. LEGO sets. GTA games. …",
       "url": "https://x.com/minchoi/status/2096620477619810739",
       "at": "2026-09-06T15:24:09Z"
     },
     {
       "id": "2096249196663713957",
-      "text": "GPT-6 Astra broke the Internet just 2 days ago.  People can't believe how powerful and \"intelligent\" it is.  Unlocking new possibilities.  \u2026",
+      "text": "GPT-6 Astra broke the Internet just 2 days ago.  People can't believe how powerful and \"intelligent\" it is.  Unlocking new possibilities.  …",
       "url": "https://x.com/minchoi/status/2096249196663713957",
       "at": "2026-09-05T14:48:49Z"
     },
     {
       "id": "2091478181840584857",
-      "text": "Ok Grok Bot is insane. People can\u2019t stop finding new ways to make money, automate work, and run businesses with it. 10 wild examples: 1. Grok Bot agents can now de\u2026",
+      "text": "Ok Grok Bot is insane. People can’t stop finding new ways to make money, automate work, and run businesses with it. 10 wild examples: 1. Grok Bot agents can now de…",
       "url": "https://x.com/minchoi/status/2091478181840584857",
       "at": "2026-08-23T10:50:30Z"
     },
     {
       "id": "2075959167689396374",
-      "text": "Ok Grok 4.5 is insane. People are already building things that shouldn't be possible this fast. 10 wild examples: 1/ Grok 4.5 built a playable FPS game in under\u2026",
+      "text": "Ok Grok 4.5 is insane. People are already building things that shouldn't be possible this fast. 10 wild examples: 1/ Grok 4.5 built a playable FPS game in under…",
       "url": "https://x.com/minchoi/status/2075959167689396374",
       "at": "2026-07-11T15:03:29Z"
     },
     {
       "id": "2075613553495601157",
-      "text": "Less than 24 hours ago, OpenAI dropped GPT-5.6. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. GPT-5.6 recreated Manhatt\u2026",
+      "text": "Less than 24 hours ago, OpenAI dropped GPT-5.6. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. GPT-5.6 recreated Manhatt…",
       "url": "https://x.com/minchoi/status/2075613553495601157",
       "at": "2026-07-10T16:10:08Z"
     },
     {
       "id": "2073791465713480109",
-      "text": "Less than 99 hours ago, Anthropic brought back Claude Fable 5. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. Claude porte\u2026",
+      "text": "Less than 99 hours ago, Anthropic brought back Claude Fable 5. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. Claude porte…",
       "url": "https://x.com/minchoi/status/2073791465713480109",
       "at": "2026-07-05T15:29:49Z"
     },
     {
       "id": "2065559239486304733",
-      "text": "Ok Claude Fable 5 is insane. People can't stop building. 10 wild examples. 1. Claude Fable built a World of Warcraft clone in one shot A playable online world g\u2026",
+      "text": "Ok Claude Fable 5 is insane. People can't stop building. 10 wild examples. 1. Claude Fable built a World of Warcraft clone in one shot A playable online world g…",
       "url": "https://x.com/minchoi/status/2065559239486304733",
       "at": "2026-06-12T22:17:53Z"
     },
     {
       "id": "2064175764900299126",
-      "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho\u2026",
+      "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho…",
       "url": "https://x.com/minchoi/status/2064175764900299126",
       "at": "2026-06-09T02:40:27Z"
     },
     {
       "id": "2050252575652409468",
-      "text": "3D development just changed forever... Claude can now officially talk directly to Blender, Autodesk Fusion, Adobe, Ableton, Affinity, Splice, SketchUp, and Resolume... Now anyone can build crazy 3D scenes + models with just prompts. 10 wild examples 1. Insanely easy setup Claude\u2026",
+      "text": "3D development just changed forever... Claude can now officially talk directly to Blender, Autodesk Fusion, Adobe, Ableton, Affinity, Splice, SketchUp, and Resolume... Now anyone can build crazy 3D scenes + models with just prompts. 10 wild examples 1. Insanely easy setup Claude…",
       "url": "https://x.com/minchoi/status/2050252575652409468",
       "at": "2026-05-01T16:34:40Z"
     },
     {
       "id": "2046630731397382552",
-      "text": "This is wild. Chinese researchers just dropped OpenGame. This AI agent can build full playable web games from a prompt. 100% Open Source CODE + DEMO in comments\u2026",
+      "text": "This is wild. Chinese researchers just dropped OpenGame. This AI agent can build full playable web games from a prompt. 100% Open Source CODE + DEMO in comments…",
       "url": "https://x.com/minchoi/status/2046630731397382552",
       "at": "2026-04-21T16:42:45Z"
     },
     {
       "id": "2045705871527653794",
-      "text": "It's over. Claude Design is generating insane UI, designs & animations from just text. Design will never be the same \ud83e\udd2f 10 wild examples: 1. Generate email marketing t\u2026",
+      "text": "It's over. Claude Design is generating insane UI, designs & animations from just text. Design will never be the same 🤯 10 wild examples: 1. Generate email marketing t…",
       "url": "https://x.com/minchoi/status/2045705871527653794",
       "at": "2026-04-19T03:27:41Z"
     },
     {
       "id": "2041727887498170788",
-      "text": "Gemma 4 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples: 1. Understand raw video (Gemma 4) + Segment (SAM 3) + Track\u2026",
+      "text": "Gemma 4 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples: 1. Understand raw video (Gemma 4) + Segment (SAM 3) + Track…",
       "url": "https://x.com/minchoi/status/2041727887498170788",
       "at": "2026-04-08T04:00:36Z"
     }
