@@ -1,6 +1,6 @@
 {
-  "wildCount": 929,
-  "lastUpdated": "2026-09-16T07:41:53Z",
+  "wildCount": 930,
+  "lastUpdated": "2026-09-17T07:45:15Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2100431305942974674",
+      "text": "This is wild.  It's 3 people + Grok Bot building a company live.  This changes everything about how you ship and how you run a company.  The future is here. https://t.co/x6K2HG98gk",
+      "url": "https://x.com/minchoi/status/2100431305942974674",
+      "at": "2026-09-17T03:47:02Z"
+    },
     {
       "id": "2100065388109169041",
       "text": "Grok roadmap just got wild \ud83d\udc40  4.7 \u2248 Opus 5.0 4.8 \u2248 the noticeable jump 4.9 \u2248 Astra / Fable class  Grok 5 \u2248 ??? https://t.co/pZNvuXhwzm https://t.co/bwJIqpNWCS",
@@ -133,12 +139,6 @@
       "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho\u2026",
       "url": "https://x.com/minchoi/status/2064175764900299126",
       "at": "2026-06-09T02:40:27Z"
-    },
-    {
-      "id": "2050252575652409468",
-      "text": "3D development just changed forever... Claude can now officially talk directly to Blender, Autodesk Fusion, Adobe, Ableton, Affinity, Splice, SketchUp, and Resolume... Now anyone can build crazy 3D scenes + models with just prompts. 10 wild examples 1. Insanely easy setup Claude\u2026",
-      "url": "https://x.com/minchoi/status/2050252575652409468",
-      "at": "2026-05-01T16:34:40Z"
     }
   ],
   "meta": {
