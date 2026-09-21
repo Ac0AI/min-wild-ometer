@@ -1,6 +1,6 @@
 {
-  "wildCount": 930,
-  "lastUpdated": "2026-09-17T07:45:15Z",
+  "wildCount": 932,
+  "lastUpdated": "2026-09-21T07:49:12Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,18 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2101511805675651564",
+      "text": "ChatGPT co-inventor just shipped a different kind of AI.  It doesn't chat. It decides.  20-200x faster decisions.  People are already running it on Doom, Minecraft, browser agents, LLM judging + more.  10 wild examples:  1. Jev plays doom https://t.co/0c3UYMcgOx",
+      "url": "https://x.com/minchoi/status/2101511805675651564",
+      "at": "2026-09-20T03:20:33Z"
+    },
+    {
+      "id": "2101162277722267829",
+      "text": "Ok Muse is actually useful.  People are using Muse to get their money back, save on bills, get efunds.  10 wild examples:",
+      "url": "https://x.com/minchoi/status/2101162277722267829",
+      "at": "2026-09-19T04:11:39Z"
+    },
     {
       "id": "2100431305942974674",
       "text": "This is wild.  It's 3 people + Grok Bot building a company live.  This changes everything about how you ship and how you run a company.  The future is here. https://t.co/x6K2HG98gk",
@@ -127,18 +139,6 @@
       "text": "Less than 99 hours ago, Anthropic brought back Claude Fable 5. Minds are blown. And people are already coming up with wild use cases. 10 examples: 1. Claude porte\u2026",
       "url": "https://x.com/minchoi/status/2073791465713480109",
       "at": "2026-07-05T15:29:49Z"
-    },
-    {
-      "id": "2065559239486304733",
-      "text": "Ok Claude Fable 5 is insane. People can't stop building. 10 wild examples. 1. Claude Fable built a World of Warcraft clone in one shot A playable online world g\u2026",
-      "url": "https://x.com/minchoi/status/2065559239486304733",
-      "at": "2026-06-12T22:17:53Z"
-    },
-    {
-      "id": "2064175764900299126",
-      "text": "Codex is not just for coding anymore. People are using GPT-5.5 to run farms, build iOS apps, design in Figma, launch businesses and automate workflows. 10 wild use cases. Bookmark this: 1. Build iPho\u2026",
-      "url": "https://x.com/minchoi/status/2064175764900299126",
-      "at": "2026-06-09T02:40:27Z"
     }
   ],
   "meta": {
