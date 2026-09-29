@@ -1,22 +1,22 @@
 {
-  "wildCount": 939,
-  "lastUpdated": "2026-09-28T07:42:03Z",
+  "wildCount": 940,
+  "lastUpdated": "2026-09-29T07:35:06Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
       "level": 0,
       "image": "/min-wild-0.jpg",
-      "caption": "Baseline \u2014 calm Min"
+      "caption": "Baseline — calm Min"
     },
     {
       "level": 1,
       "image": "/min-wild-1.jpg",
-      "caption": "Slightly spicy \u2014 +sat"
+      "caption": "Slightly spicy — +sat"
     },
     {
       "level": 2,
       "image": "/min-wild-2.jpg",
-      "caption": "Hue slipping\u2026"
+      "caption": "Hue slipping…"
     },
     {
       "level": 3,
@@ -51,8 +51,14 @@
   ],
   "sightings": [
     {
+      "id": "2104689017526927698",
+      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
+      "url": "https://x.com/minchoi/status/2104689017526927698",
+      "at": "2026-09-28T21:45:39.000Z"
+    },
+    {
       "id": "2104227722377757031",
-      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic \ud83e\udd2f\nhttps://t.co/L9RfSxsA9g",
+      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
       "url": "https://x.com/minchoi/status/2104227722377757031",
       "at": "2026-09-27T15:12:38.000Z"
     },
@@ -76,7 +82,7 @@
     },
     {
       "id": "2102838725722198064",
-      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA\u2026\n\n\u2026and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. \ud83e\udd2f\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS \u2026",
+      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
       "url": "https://x.com/minchoi/status/2102838725722198064",
       "at": "2026-09-23T19:13:15.000Z"
     },
@@ -112,13 +118,13 @@
     },
     {
       "id": "2100065388109169041",
-      "text": "Grok roadmap just got wild \ud83d\udc40  4.7 \u2248 Opus 5.0 4.8 \u2248 the noticeable jump 4.9 \u2248 Astra / Fable class  Grok 5 \u2248 ??? https://t.co/pZNvuXhwzm https://t.co/bwJIqpNWCS",
+      "text": "Grok roadmap just got wild 👀  4.7 ≈ Opus 5.0 4.8 ≈ the noticeable jump 4.9 ≈ Astra / Fable class  Grok 5 ≈ ??? https://t.co/pZNvuXhwzm https://t.co/bwJIqpNWCS",
       "url": "https://x.com/minchoi/status/2100065388109169041",
       "at": "2026-09-16T03:33:00Z"
     },
     {
       "id": "2099528919636476250",
-      "text": "Elon + SpaceXAI are building a company live with Grok Bot \ud83d\udc40\n\nLive demos. Hands-on builds. The team behind Grok Bot.\n\nGrok Bot Galaxy starts\u2026",
+      "text": "Elon + SpaceXAI are building a company live with Grok Bot 👀\n\nLive demos. Hands-on builds. The team behind Grok Bot.\n\nGrok Bot Galaxy starts…",
       "url": "https://x.com/minchoi/status/2099528919636476250",
       "at": "2026-09-14T16:01:16Z"
     },
@@ -130,15 +136,9 @@
     },
     {
       "id": "2097706153220174012",
-      "text": "It's happening.  AI is getting crazy good at 3D.  GPT-6 Astra is building 3D games, Blender scenes, anatomy + real-world objects from almost nothing.  10 wil\u2026",
+      "text": "It's happening.  AI is getting crazy good at 3D.  GPT-6 Astra is building 3D games, Blender scenes, anatomy + real-world objects from almost nothing.  10 wil…",
       "url": "https://x.com/minchoi/status/2097706153220174012",
       "at": "2026-09-09T15:18:15Z"
-    },
-    {
-      "id": "2097641752169427250",
-      "text": "Wild... just tested Sketch with ChatGPT Images 2.5 \ud83e\udd2f https://t.co/DCJgwsONVP https://t.co/8Ioz0D5zZu",
-      "url": "https://x.com/minchoi/status/2097641752169427250",
-      "at": "2026-09-09T11:02:20Z"
     }
   ],
   "meta": {
