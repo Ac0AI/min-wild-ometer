@@ -1,6 +1,6 @@
 {
-  "wildCount": 940,
-  "lastUpdated": "2026-09-29T07:35:06Z",
+  "wildCount": 941,
+  "lastUpdated": "2026-10-01T07:39:20Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2105404424923291887",
+      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
+      "url": "https://x.com/minchoi/status/2105404424923291887",
+      "at": "2026-09-30T21:08:26.000Z"
+    },
     {
       "id": "2104689017526927698",
       "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
@@ -133,12 +139,6 @@
       "text": "GPT-6 Astra isn't just coding anymore.  It's building games, editing films, designing 3D objects + working autonomously for days.  10 wild examples:",
       "url": "https://x.com/minchoi/status/2099333857317204184",
       "at": "2026-09-14T03:06:09Z"
-    },
-    {
-      "id": "2097706153220174012",
-      "text": "It's happening.  AI is getting crazy good at 3D.  GPT-6 Astra is building 3D games, Blender scenes, anatomy + real-world objects from almost nothing.  10 wil…",
-      "url": "https://x.com/minchoi/status/2097706153220174012",
-      "at": "2026-09-09T15:18:15Z"
     }
   ],
   "meta": {
