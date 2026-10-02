@@ -1,22 +1,22 @@
 {
-  "wildCount": 941,
-  "lastUpdated": "2026-10-01T07:39:20Z",
+  "wildCount": 942,
+  "lastUpdated": "2026-10-02T07:39:42Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
       "level": 0,
       "image": "/min-wild-0.jpg",
-      "caption": "Baseline — calm Min"
+      "caption": "Baseline \u2014 calm Min"
     },
     {
       "level": 1,
       "image": "/min-wild-1.jpg",
-      "caption": "Slightly spicy — +sat"
+      "caption": "Slightly spicy \u2014 +sat"
     },
     {
       "level": 2,
       "image": "/min-wild-2.jpg",
-      "caption": "Hue slipping…"
+      "caption": "Hue slipping\u2026"
     },
     {
       "level": 3,
@@ -51,20 +51,26 @@
   ],
   "sightings": [
     {
+      "id": "2105685231298630009",
+      "text": "Game dev will never be the same...\n\nOpus 5.5 is building full games, 3D worlds, music videos + more.\n\n10 wild examples:",
+      "url": "https://x.com/minchoi/status/2105685231298630009",
+      "at": "2026-10-01T15:44:15.000Z"
+    },
+    {
       "id": "2105404424923291887",
-      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
+      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild \ud83e\udd2f https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
       "url": "https://x.com/minchoi/status/2105404424923291887",
       "at": "2026-09-30T21:08:26.000Z"
     },
     {
       "id": "2104689017526927698",
-      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
+      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this \u2193",
       "url": "https://x.com/minchoi/status/2104689017526927698",
       "at": "2026-09-28T21:45:39.000Z"
     },
     {
       "id": "2104227722377757031",
-      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
+      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic \ud83e\udd2f\nhttps://t.co/L9RfSxsA9g",
       "url": "https://x.com/minchoi/status/2104227722377757031",
       "at": "2026-09-27T15:12:38.000Z"
     },
@@ -88,7 +94,7 @@
     },
     {
       "id": "2102838725722198064",
-      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
+      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA\u2026\n\n\u2026and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. \ud83e\udd2f\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS \u2026",
       "url": "https://x.com/minchoi/status/2102838725722198064",
       "at": "2026-09-23T19:13:15.000Z"
     },
@@ -124,34 +130,15 @@
     },
     {
       "id": "2100065388109169041",
-      "text": "Grok roadmap just got wild 👀  4.7 ≈ Opus 5.0 4.8 ≈ the noticeable jump 4.9 ≈ Astra / Fable class  Grok 5 ≈ ??? https://t.co/pZNvuXhwzm https://t.co/bwJIqpNWCS",
+      "text": "Grok roadmap just got wild \ud83d\udc40  4.7 \u2248 Opus 5.0 4.8 \u2248 the noticeable jump 4.9 \u2248 Astra / Fable class  Grok 5 \u2248 ??? https://t.co/pZNvuXhwzm https://t.co/bwJIqpNWCS",
       "url": "https://x.com/minchoi/status/2100065388109169041",
       "at": "2026-09-16T03:33:00Z"
     },
     {
       "id": "2099528919636476250",
-      "text": "Elon + SpaceXAI are building a company live with Grok Bot 👀\n\nLive demos. Hands-on builds. The team behind Grok Bot.\n\nGrok Bot Galaxy starts…",
+      "text": "Elon + SpaceXAI are building a company live with Grok Bot \ud83d\udc40\n\nLive demos. Hands-on builds. The team behind Grok Bot.\n\nGrok Bot Galaxy starts\u2026",
       "url": "https://x.com/minchoi/status/2099528919636476250",
       "at": "2026-09-14T16:01:16Z"
-    },
-    {
-      "id": "2099333857317204184",
-      "text": "GPT-6 Astra isn't just coding anymore.  It's building games, editing films, designing 3D objects + working autonomously for days.  10 wild examples:",
-      "url": "https://x.com/minchoi/status/2099333857317204184",
-      "at": "2026-09-14T03:06:09Z"
     }
-  ],
-  "meta": {
-    "avatarSource": "https://unavatar.io/twitter/minchoi",
-    "avatarResolved": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_400x400.jpg",
-    "avatarNote": "400x400 public profile image via unavatar.io / pbs.twimg.com",
-    "scrapeSources": [
-      "https://threadreaderapp.com/user/minchoi",
-      "https://twiscan.com/en/x/minchoi",
-      "https://unrollnow.com/status/2081414653146460668"
-    ],
-    "wildCountNote": "Case-insensitive whole-word count of \"wild\" across ~22 recent public thread openers + bio scraped from Thread Reader / UnrollNow / twiscan (not full timeline)."
-  },
-  "countNote": "X API full-archive baseline + recent-search deltas; whole-word wild in original tweets (excl. RTs/replies). Bio has +1 more.",
-  "celebrated1000": false
+  ]
 }
