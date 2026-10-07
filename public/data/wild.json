@@ -1,22 +1,22 @@
 {
-  "wildCount": 944,
-  "lastUpdated": "2026-10-06T07:42:18Z",
+  "wildCount": 945,
+  "lastUpdated": "2026-10-07T07:40:50Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
       "level": 0,
       "image": "/min-wild-0.jpg",
-      "caption": "Baseline — calm Min"
+      "caption": "Baseline \u2014 calm Min"
     },
     {
       "level": 1,
       "image": "/min-wild-1.jpg",
-      "caption": "Slightly spicy — +sat"
+      "caption": "Slightly spicy \u2014 +sat"
     },
     {
       "level": 2,
       "image": "/min-wild-2.jpg",
-      "caption": "Hue slipping…"
+      "caption": "Hue slipping\u2026"
     },
     {
       "level": 3,
@@ -51,6 +51,12 @@
   ],
   "sightings": [
     {
+      "id": "2107524494122430519",
+      "text": "Google just dropped EmbeddingGemma 2.\n\nOpen multimodal embedding model. 740M params.\n\nRuns fully on-device.\n\nPrivate. No cloud needed.\n\n3 wild things you can do:\n\n1. Find exact video moments with your voice https://t.co/nzbfPZifVC",
+      "url": "https://x.com/minchoi/status/2107524494122430519",
+      "at": "2026-10-06T17:32:49.000Z"
+    },
+    {
       "id": "2107230607415935137",
       "text": "This is wild\n\nClaude is crushing ChatGPT on subscription value.\n\nSame $200/month.\n\nOpus 5.5 gives ~5x the API-equivalent value of GPT-6.1 Sol. https://t.co/qVBEdZORtb https://t.co/WBRcgzP14a",
       "url": "https://x.com/minchoi/status/2107230607415935137",
@@ -70,19 +76,19 @@
     },
     {
       "id": "2105404424923291887",
-      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
+      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild \ud83e\udd2f https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
       "url": "https://x.com/minchoi/status/2105404424923291887",
       "at": "2026-09-30T21:08:26.000Z"
     },
     {
       "id": "2104689017526927698",
-      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
+      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this \u2193",
       "url": "https://x.com/minchoi/status/2104689017526927698",
       "at": "2026-09-28T21:45:39.000Z"
     },
     {
       "id": "2104227722377757031",
-      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
+      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic \ud83e\udd2f\nhttps://t.co/L9RfSxsA9g",
       "url": "https://x.com/minchoi/status/2104227722377757031",
       "at": "2026-09-27T15:12:38.000Z"
     },
@@ -106,7 +112,7 @@
     },
     {
       "id": "2102838725722198064",
-      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
+      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA\u2026\n\n\u2026and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. \ud83e\udd2f\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS \u2026",
       "url": "https://x.com/minchoi/status/2102838725722198064",
       "at": "2026-09-23T19:13:15.000Z"
     },
@@ -133,12 +139,6 @@
       "text": "Ok Muse is actually useful.  People are using Muse to get their money back, save on bills, get efunds.  10 wild examples:",
       "url": "https://x.com/minchoi/status/2101162277722267829",
       "at": "2026-09-19T04:11:39Z"
-    },
-    {
-      "id": "2100431305942974674",
-      "text": "This is wild.  It's 3 people + Grok Bot building a company live.  This changes everything about how you ship and how you run a company.  The future is here. https://t.co/x6K2HG98gk",
-      "url": "https://x.com/minchoi/status/2100431305942974674",
-      "at": "2026-09-17T03:47:02Z"
     }
   ]
 }
