@@ -1,22 +1,22 @@
 {
-  "wildCount": 945,
-  "lastUpdated": "2026-10-07T07:40:50Z",
+  "wildCount": 946,
+  "lastUpdated": "2026-10-07T15:45:06Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
       "level": 0,
       "image": "/min-wild-0.jpg",
-      "caption": "Baseline \u2014 calm Min"
+      "caption": "Baseline — calm Min"
     },
     {
       "level": 1,
       "image": "/min-wild-1.jpg",
-      "caption": "Slightly spicy \u2014 +sat"
+      "caption": "Slightly spicy — +sat"
     },
     {
       "level": 2,
       "image": "/min-wild-2.jpg",
-      "caption": "Hue slipping\u2026"
+      "caption": "Hue slipping…"
     },
     {
       "level": 3,
@@ -51,6 +51,12 @@
   ],
   "sightings": [
     {
+      "id": "2107814500061638750",
+      "text": "This is wild...\n\nGrok Bot will now pick Claude Opus 5.5, Midjourney, Suno + more depending on the task.\n\nBest model wins. https://t.co/6fyPhhD6it",
+      "url": "https://x.com/minchoi/status/2107814500061638750",
+      "at": "2026-10-07T12:45:12.000Z"
+    },
+    {
       "id": "2107524494122430519",
       "text": "Google just dropped EmbeddingGemma 2.\n\nOpen multimodal embedding model. 740M params.\n\nRuns fully on-device.\n\nPrivate. No cloud needed.\n\n3 wild things you can do:\n\n1. Find exact video moments with your voice https://t.co/nzbfPZifVC",
       "url": "https://x.com/minchoi/status/2107524494122430519",
@@ -76,19 +82,19 @@
     },
     {
       "id": "2105404424923291887",
-      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild \ud83e\udd2f https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
+      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
       "url": "https://x.com/minchoi/status/2105404424923291887",
       "at": "2026-09-30T21:08:26.000Z"
     },
     {
       "id": "2104689017526927698",
-      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this \u2193",
+      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
       "url": "https://x.com/minchoi/status/2104689017526927698",
       "at": "2026-09-28T21:45:39.000Z"
     },
     {
       "id": "2104227722377757031",
-      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic \ud83e\udd2f\nhttps://t.co/L9RfSxsA9g",
+      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
       "url": "https://x.com/minchoi/status/2104227722377757031",
       "at": "2026-09-27T15:12:38.000Z"
     },
@@ -112,7 +118,7 @@
     },
     {
       "id": "2102838725722198064",
-      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA\u2026\n\n\u2026and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. \ud83e\udd2f\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS \u2026",
+      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
       "url": "https://x.com/minchoi/status/2102838725722198064",
       "at": "2026-09-23T19:13:15.000Z"
     },
@@ -133,12 +139,6 @@
       "text": "ChatGPT co-inventor just shipped a different kind of AI.  It doesn't chat. It decides.  20-200x faster decisions.  People are already running it on Doom, Minecraft, browser agents, LLM judging + more.  10 wild examples:  1. Jev plays doom https://t.co/0c3UYMcgOx",
       "url": "https://x.com/minchoi/status/2101511805675651564",
       "at": "2026-09-20T03:20:33Z"
-    },
-    {
-      "id": "2101162277722267829",
-      "text": "Ok Muse is actually useful.  People are using Muse to get their money back, save on bills, get efunds.  10 wild examples:",
-      "url": "https://x.com/minchoi/status/2101162277722267829",
-      "at": "2026-09-19T04:11:39Z"
     }
   ]
 }
