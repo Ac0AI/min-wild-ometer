@@ -1,6 +1,6 @@
 {
-  "wildCount": 946,
-  "lastUpdated": "2026-10-07T15:45:06Z",
+  "wildCount": 947,
+  "lastUpdated": "2026-10-12T07:43:07Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2109045075355504866",
+      "text": "Okay, this is wild...\n\nI gave Grok Bot a photo of my credit card.\n\nIt figured out what I needed for work, found the best deal, and added it to my Amazon cart.\n\nI didn't even pick the product. 🤯 https://t.co/Hvnrr244dF https://t.co/MfUzKBFwYr",
+      "url": "https://x.com/minchoi/status/2109045075355504866",
+      "at": "2026-10-10T22:15:04.000Z"
+    },
     {
       "id": "2107814500061638750",
       "text": "This is wild...\n\nGrok Bot will now pick Claude Opus 5.5, Midjourney, Suno + more depending on the task.\n\nBest model wins. https://t.co/6fyPhhD6it",
@@ -133,12 +139,6 @@
       "text": "Grok 4.7 just dropped today.  And people are already pushing its limits.  Boost Grok Bot productivity. Catch $146K in errors. Create Blender scenes  10 wild examples:",
       "url": "https://x.com/minchoi/status/2102243528604520884",
       "at": "2026-09-22T03:48:09.000Z"
-    },
-    {
-      "id": "2101511805675651564",
-      "text": "ChatGPT co-inventor just shipped a different kind of AI.  It doesn't chat. It decides.  20-200x faster decisions.  People are already running it on Doom, Minecraft, browser agents, LLM judging + more.  10 wild examples:  1. Jev plays doom https://t.co/0c3UYMcgOx",
-      "url": "https://x.com/minchoi/status/2101511805675651564",
-      "at": "2026-09-20T03:20:33Z"
     }
   ]
 }
