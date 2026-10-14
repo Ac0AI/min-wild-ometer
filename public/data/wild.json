@@ -1,6 +1,6 @@
 {
-  "wildCount": 947,
-  "lastUpdated": "2026-10-12T07:43:07Z",
+  "wildCount": 949,
+  "lastUpdated": "2026-10-14T07:36:24Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,18 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2110218145277395191",
+      "text": "Google just dropped Gemini 4 Argon.\n\nMinds are blown. And people are already building insane 3D worlds and games with it.\n\n10 wild examples:",
+      "url": "https://x.com/minchoi/status/2110218145277395191",
+      "at": "2026-10-14T03:56:26.000Z"
+    },
+    {
+      "id": "2110139385991807411",
+      "text": "This story is wild.\n\nOpenAI just had a real-life spy incident.\n\nA hidden recording device was found in its executive conference room.\n\nOpenAI used its own AI models to trace it to an employee.\n\nThe FBI arrested him. https://t.co/IGysVFUhig https://t.co/TRi0JK4XHv",
+      "url": "https://x.com/minchoi/status/2110139385991807411",
+      "at": "2026-10-13T22:43:28.000Z"
+    },
     {
       "id": "2109045075355504866",
       "text": "Okay, this is wild...\n\nI gave Grok Bot a photo of my credit card.\n\nIt figured out what I needed for work, found the best deal, and added it to my Amazon cart.\n\nI didn't even pick the product. 🤯 https://t.co/Hvnrr244dF https://t.co/MfUzKBFwYr",
@@ -127,18 +139,6 @@
       "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
       "url": "https://x.com/minchoi/status/2102838725722198064",
       "at": "2026-09-23T19:13:15.000Z"
-    },
-    {
-      "id": "2102601488606372243",
-      "text": "Ok Claude Opus 5.5 is insane.  People can't stop building.  10 wild examples.",
-      "url": "https://x.com/minchoi/status/2102601488606372243",
-      "at": "2026-09-23T03:30:33.000Z"
-    },
-    {
-      "id": "2102243528604520884",
-      "text": "Grok 4.7 just dropped today.  And people are already pushing its limits.  Boost Grok Bot productivity. Catch $146K in errors. Create Blender scenes  10 wild examples:",
-      "url": "https://x.com/minchoi/status/2102243528604520884",
-      "at": "2026-09-22T03:48:09.000Z"
     }
   ]
 }
