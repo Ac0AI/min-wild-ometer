@@ -16,7 +16,12 @@ const body = Nunito({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wild-ometer.local";
+// Absolute base for OG/Twitter image URLs. Falls back to the production
+// domain Vercel exposes at build time, so share cards work without extra config.
+const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? process.env.VERCEL_URL;
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (vercelHost ? `https://${vercelHost}` : "http://localhost:3000");
 
 export const metadata: Metadata = {
   title: "Wild-O-Meter — How wild is Min?!",

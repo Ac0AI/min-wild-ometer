@@ -2,8 +2,9 @@ import Image from "next/image";
 import { readFile } from "fs/promises";
 import path from "path";
 import type { WildData } from "@/lib/types";
-import { formatSightingRelative } from "@/lib/format";
+import { formatSightingRelative, formatSightingTime } from "@/lib/format";
 import { WILD_GOAL, WILD_TIERS, tierIndex } from "@/lib/wildLevels";
+import RelativeTime from "@/components/RelativeTime";
 import StageGallery from "@/components/StageGallery";
 import SightingsList from "@/components/SightingsList";
 import WildAnthem from "@/components/WildAnthem";
@@ -55,7 +56,7 @@ export default async function HomePage() {
   });
   const remaining = Math.max(0, WILD_GOAL - data.wildCount);
   const hype = hypeCopy(data.wildCount);
-  const lastWild = data.sightings[0] ? formatSightingRelative(data.sightings[0].at) : "";
+  const lastWild = data.sightings[0];
 
   return (
     <main className="overflow-x-hidden">
@@ -106,7 +107,13 @@ export default async function HomePage() {
                 {remaining > 0 ? `${remaining} to go` : "Goal smashed!"}
               </span>
               {lastWild && (
-                <span className="pop-chip bg-pop-cyan text-sm !shadow-none">Last wild {lastWild}</span>
+                <span className="pop-chip bg-pop-cyan text-sm !shadow-none">
+                  Last wild <RelativeTime
+                    iso={lastWild.at}
+                    initial={formatSightingRelative(lastWild.at)}
+                    fallback={formatSightingTime(lastWild.at)}
+                  />
+                </span>
               )}
             </div>
           </div>
