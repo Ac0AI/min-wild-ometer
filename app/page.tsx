@@ -2,9 +2,11 @@ import Image from "next/image";
 import { readFile } from "fs/promises";
 import path from "path";
 import type { WildData } from "@/lib/types";
+import { formatSightingRelative } from "@/lib/format";
 import StageGallery from "@/components/StageGallery";
 import SightingsList from "@/components/SightingsList";
 import WildAnthem from "@/components/WildAnthem";
+import WildGauge from "@/components/WildGauge";
 import WildMarquee from "@/components/WildMarquee";
 
 const WILD_GOAL = 1000;
@@ -15,232 +17,179 @@ async function loadWildData(): Promise<WildData> {
   return JSON.parse(raw) as WildData;
 }
 
-function hypeCopy(count: number): string {
+function hypeCopy(count: number): { mood: string; line: string } {
   const left = Math.max(0, WILD_GOAL - count);
   if (count >= WILD_GOAL) {
-    return "🚨 1000 WILD HIT!!! Min Choi has ASCENDED. Reality is optional. 🚨";
+    return { mood: "🚨 ASCENDED", line: "1000 wilds. Min has broken the meter. Reality is optional now." };
   }
   if (count >= 950) {
-    return `🌋 ULTRA WILD — only ${left} to 1000!!! Min is about to break the meter. Hold onto your pixels. 🌋`;
+    return { mood: "🌋 Ultra wild", line: `Only ${left} to go — the meter is about to explode.` };
   }
   if (count >= 900) {
-    return `🔥 MIN IS FERAL — ${count} wilds and climbing. Just ${left} more until legendary 1000. 🔥`;
+    return { mood: "🔥 Feral", line: `Just ${left} more until the legendary 1000. Hold onto your pixels.` };
   }
   if (count >= 750) {
-    return `🌶️ Serious wild energy — ${count}/1000. ${left} wilds left before Min goes nuclear. 🌶️`;
+    return { mood: "🌶️ Spicy", line: `${left} wilds left before Min goes nuclear.` };
   }
   if (count >= 500) {
-    return `👀 Halfway-and-then-some wild. Min at ${count} — ${left} to go until 1000. Feed the meter. 👀`;
+    return { mood: "👀 Warming up", line: `Past halfway — ${left} to go until 1000.` };
   }
-  return `Baseline vibes… for now. Min sits at ${count}/1000. Feed the wild and watch the mutate. 👀`;
+  return { mood: "😌 Chill", line: `Baseline vibes… for now. ${left} to go.` };
 }
+
+const HOW_IT_WORKS = [
+  { emoji: "🗣️", title: "Min says “wild”", text: "We count every whole-word “wild” in his own posts on X.", color: "bg-pop-cyan" },
+  { emoji: "📈", title: "The meter climbs", text: "Retweets and replies don't count. Only pure, original wild.", color: "bg-pop-yellow" },
+  { emoji: "🧬", title: "Min mutates", text: "His portrait gets wilder stage by stage. Goal: 1000.", color: "bg-pop-pink" },
+];
 
 export default async function HomePage() {
   const data = await loadWildData();
   const updated = new Date(data.lastUpdated).toLocaleString("en-GB", {
     timeZone: "Europe/Madrid",
-    dateStyle: "medium",
-    timeStyle: "short",
+    day: "numeric",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
   });
-  const progressPct = Math.min(100, Math.round((data.wildCount / WILD_GOAL) * 1000) / 10);
   const remaining = Math.max(0, WILD_GOAL - data.wildCount);
+  const hype = hypeCopy(data.wildCount);
+  const lastWild = data.sightings[0] ? formatSightingRelative(data.sightings[0].at) : "";
 
   return (
-    <main className="relative overflow-x-hidden pb-10">
-      {/* slim top ticker — demoted noise */}
-      <div className="opacity-70">
-        <WildMarquee />
+    <main className="overflow-x-hidden">
+      {/* top bar */}
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-4">
+        <span className="font-display text-xl font-bold tracking-tight">
+          wild<span className="text-pop-pink">·o·</span>meter
+        </span>
+        <span className="pop-chip bg-white text-sm">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pop-pink opacity-75" />
+            <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-pop-pink" />
+          </span>
+          Updated {updated}
+        </span>
       </div>
 
-      {/* soft decorative stickers — smaller / less competing */}
-      <div className="pointer-events-none absolute left-2 top-24 z-20 hidden opacity-50 lg:block" aria-hidden="true">
-        <span className="sticker sticker-burst scale-75 animate-bounceSoft">WOW<br />!!!</span>
-      </div>
-      <div className="pointer-events-none absolute right-3 top-28 z-20 hidden opacity-50 lg:block" aria-hidden="true">
-        <span className="sticker sticker-new scale-75 animate-wobble text-[10px]">★ HOT!!! ★</span>
-      </div>
-      <div className="glitter left-[8%] top-[18%] opacity-60" style={{ animationDelay: "0.3s" }} aria-hidden="true" />
-      <div className="glitter right-[10%] top-[22%] opacity-60" style={{ animationDelay: "0.9s" }} aria-hidden="true" />
-
-      {/* HERO: Min portrait + wild count — first viewport focus */}
-      <header className="relative mx-auto max-w-6xl px-4 pb-6 pt-6 sm:pt-8">
-        <div className="mb-4 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
-          <span className="sticker sticker-new text-[10px] sm:text-xs">★ LIVE FEED ★</span>
-          <p className="inline-flex items-center gap-2 rounded-full border-2 border-neon-lime bg-void/70 px-3 py-1 font-pixel text-[7px] uppercase tracking-[0.2em] text-neon-lime shadow-[0_0_12px_#b8ff3c] sm:text-[9px]">
-            <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-neon-lime shadow-[0_0_8px_#b8ff3c]" />
-            wild-o-meter · live
-          </p>
-        </div>
-
-        <div className="grid items-center gap-6 md:grid-cols-2 md:gap-8 lg:gap-12">
-          {/* Portrait — the star */}
-          <div className="relative mx-auto w-full max-w-md md:max-w-none">
-            <div className="chrome-frame animate-float relative mx-auto aspect-square overflow-hidden rounded-3xl">
-              <Image
-                src={data.currentImage}
-                alt="Current wild mutated portrait of Min Choi"
-                fill
-                priority
-                sizes="(max-width: 768px) 90vw, 480px"
-                className="object-cover animate-pulseNeon"
-              />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-void via-transparent to-transparent opacity-50" />
-              <div className="absolute left-3 top-3">
-                <span className="sticker sticker-burst text-[7px]">LIVE<br />NOW</span>
-              </div>
-              <div className="absolute bottom-3 left-0 right-0 px-3 text-center">
-                <span className="inline-block rounded-md border-4 border-white bg-gradient-to-r from-neon-pink via-neon-yellow to-neon-cyan px-3 py-1 font-display text-lg tracking-widest text-void shadow-[4px_4px_0_#000] sm:text-xl">
-                  MAX WILD ENERGY 🔥
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* Name + count + meter */}
-          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+      {/* HERO */}
+      <header className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-14 pt-4 md:grid-cols-[1.1fr_1fr] md:pt-8">
+        <div className="flex flex-col items-center text-center md:items-start md:text-left">
+          <h1 className="font-display text-[clamp(2.4rem,7vw,4rem)] font-bold leading-[1.02] tracking-tight">
+            How wild is{" "}
             <a
               href="https://x.com/minchoi"
               target="_blank"
               rel="noopener noreferrer"
-              className="group mb-1 inline-block"
+              className="pop-link whitespace-nowrap text-pop-pink underline decoration-[5px] underline-offset-[6px] hover:text-pop-purple"
             >
-              <h1
-                className="glitch-text font-display text-[clamp(2.75rem,12vw,5.5rem)] leading-[0.85] tracking-wide text-white transition group-hover:text-neon-cyan"
-                data-text="MIN CHOI"
-              >
-                MIN CHOI
-              </h1>
-              <span className="mt-1 inline-block font-pixel text-[10px] uppercase tracking-[0.35em] text-neon-cyan group-hover:text-neon-pink sm:text-xs">
-                @minchoi →
-              </span>
+              Min Choi
             </a>
+            ?!
+          </h1>
 
-            <p className="mt-4 font-pixel text-[9px] uppercase tracking-[0.3em] text-neon-yellow sm:text-[11px]">
-              wild count
-            </p>
-
-            <div className="relative mt-1">
-              <span
-                className="hero-chrome font-display block text-[clamp(4.5rem,18vw,9rem)] leading-none"
-                aria-label={`Wild count ${data.wildCount}`}
-              >
+          <div className="pop-card mt-8 w-full max-w-md bg-white p-5 sm:p-6">
+            <div className="flex justify-center">
+              <WildGauge count={data.wildCount} goal={WILD_GOAL} />
+            </div>
+            <div className="-mt-1 flex items-end justify-center gap-2">
+              <span className="font-display text-7xl font-bold leading-none tracking-tight">
                 {data.wildCount}
               </span>
-              <span
-                className="pointer-events-none absolute -right-3 -top-1 animate-spinSlow text-2xl sm:text-4xl"
-                aria-hidden="true"
-              >
-                ✨
-              </span>
-              <span
-                className="pointer-events-none absolute -bottom-1 -left-4 animate-bounceSoft text-xl sm:text-3xl"
-                aria-hidden="true"
-              >
-                💥
-              </span>
+              <span className="pb-2 font-display text-2xl font-semibold text-ink/40">/ {WILD_GOAL}</span>
             </div>
-
-            {/* Neon progress toward 1000 */}
-            <div className="mt-5 w-full max-w-md">
-              <div className="mb-1.5 flex items-baseline justify-between gap-2 font-pixel text-[8px] uppercase tracking-[0.2em] text-white/70 sm:text-[9px]">
-                <span>
-                  {data.wildCount}
-                  <span className="text-neon-pink"> / {WILD_GOAL}</span>
-                </span>
-                <span className="text-neon-lime">
-                  {remaining > 0 ? `${remaining} to go` : "MAXED!!!"}
-                </span>
-              </div>
-              <div
-                className="wild-progress"
-                role="progressbar"
-                aria-valuenow={data.wildCount}
-                aria-valuemin={0}
-                aria-valuemax={WILD_GOAL}
-                aria-label={`Wild progress ${data.wildCount} of ${WILD_GOAL}`}
-              >
-                <div className="wild-progress-fill" style={{ width: `${progressPct}%` }} />
-              </div>
+            <p className="mt-1 text-center font-display text-lg font-semibold">wilds said so far</p>
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <span className="pop-chip bg-pop-yellow text-sm !shadow-none">{hype.mood}</span>
+              <span className="pop-chip bg-pop-lime text-sm !shadow-none">
+                {remaining > 0 ? `${remaining} to go` : "Goal smashed!"}
+              </span>
+              {lastWild && (
+                <span className="pop-chip bg-pop-cyan text-sm !shadow-none">Last wild {lastWild}</span>
+              )}
             </div>
+          </div>
 
-            <p className="mt-5 max-w-md font-body text-sm font-bold text-white/90 sm:text-base">
-              {hypeCopy(data.wildCount)}
-            </p>
+          <p className="mt-6 max-w-md text-lg font-semibold">{hype.line}</p>
 
-            <p className="mt-2 font-pixel text-[7px] text-white/40 sm:text-[8px]">
-              last sync · {updated} PT · word hits on public threads
-            </p>
+          <div className="mt-6">
+            <WildAnthem />
           </div>
         </div>
 
-        {/* Anthem below hero focus — kept, demoted */}
-        <div className="mx-auto mt-10 max-w-lg opacity-95">
-          <WildAnthem />
+        {/* Portrait */}
+        <div className="relative mx-auto w-full max-w-sm md:max-w-md">
+          <div className="absolute inset-0 translate-x-4 translate-y-4 rotate-3 rounded-[2rem] bg-pop-purple" aria-hidden="true" />
+          <div className="relative animate-float overflow-hidden rounded-[2rem] border-[3px] border-ink bg-white shadow-pop-lg">
+            <div className="relative aspect-square">
+              <Image
+                src={data.currentImage}
+                alt="Min Choi's current wild mutated portrait"
+                fill
+                priority
+                sizes="(max-width: 768px) 90vw, 448px"
+                className="object-cover"
+              />
+            </div>
+            <p className="border-t-[3px] border-ink bg-pop-yellow py-2 text-center font-display text-xl font-bold">
+              Min, right now 🧬
+            </p>
+          </div>
+          <span
+            className="pop-chip absolute -left-3 -top-4 rotate-[-10deg] bg-pop-pink px-4 py-1.5 text-lg text-white"
+            aria-hidden="true"
+          >
+            Current form!
+          </span>
+          <span className="absolute -bottom-6 -right-2 animate-wiggle text-5xl" aria-hidden="true">
+            ⚡
+          </span>
         </div>
-
-        <nav className="mt-8 flex flex-wrap justify-center gap-2 font-display text-sm tracking-wider opacity-80 sm:gap-3 sm:text-base">
-          <a
-            href="#portrait"
-            className="rounded-full border-2 border-neon-cyan/80 bg-void/60 px-4 py-1.5 text-neon-cyan shadow-[2px_2px_0_#ff2d95] transition hover:-translate-y-0.5 hover:bg-neon-cyan hover:text-void"
-          >
-            🖼️ Form
-          </a>
-          <a
-            href="#stages"
-            className="rounded-full border-2 border-neon-pink/80 bg-void/60 px-4 py-1.5 text-neon-pink shadow-[2px_2px_0_#ffe600] transition hover:-translate-y-0.5 hover:bg-neon-pink hover:text-white"
-          >
-            🃏 Stages
-          </a>
-          <a
-            href="#sightings"
-            className="rounded-full border-2 border-neon-yellow/80 bg-void/60 px-4 py-1.5 text-neon-yellow shadow-[2px_2px_0_#00f0ff] transition hover:-translate-y-0.5 hover:bg-neon-yellow hover:text-void"
-          >
-            📡 Sightings
-          </a>
-        </nav>
       </header>
 
-      <div className="opacity-60">
-        <WildMarquee reverse />
-      </div>
+      <WildMarquee />
 
-      {/* Latest wild tweets early — times front and center */}
-      <SightingsList sightings={data.sightings} />
-
-      {/* Compact current-form note — no duplicate giant portrait */}
-      <section id="portrait" className="relative mx-auto max-w-2xl px-4 py-8 text-center">
-        <span className="sticker sticker-new mb-2 inline-flex text-[10px]">★ CURRENT FORM ★</span>
-        <p className="font-pixel text-[9px] uppercase tracking-[0.25em] text-neon-lime sm:text-[10px]">
-          mutated portrait booth · live in the hero ↑
-        </p>
-        <h2 className="section-kaboom mt-1 text-2xl uppercase text-white sm:text-3xl">
-          This Is Min Right Now
-        </h2>
-        <p className="mx-auto mt-3 max-w-md font-body text-sm font-bold text-white/75">
-          The portrait up top mutates as the wild count climbs. Stage cards below — same energy, more chaos.
-        </p>
+      {/* How it works */}
+      <section className="mx-auto max-w-6xl px-4 py-14">
+        <h2 className="mb-8 text-center font-display text-3xl font-bold sm:text-4xl">How it works</h2>
+        <ol className="grid gap-5 md:grid-cols-3">
+          {HOW_IT_WORKS.map((step, i) => (
+            <li key={step.title} className="pop-card flex items-start gap-4 p-5">
+              <span
+                className={`grid h-14 w-14 shrink-0 place-items-center rounded-2xl border-[3px] border-ink text-3xl ${step.color}`}
+                aria-hidden="true"
+              >
+                {step.emoji}
+              </span>
+              <div>
+                <p className="font-display text-sm font-semibold uppercase tracking-widest text-ink/50">
+                  Step {i + 1}
+                </p>
+                <h3 className="font-display text-xl font-bold">{step.title}</h3>
+                <p className="mt-1 text-ink/75">{step.text}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
       </section>
+
+      <SightingsList sightings={data.sightings} />
 
       <StageGallery stages={data.stages} />
 
-      <footer className="mx-auto mt-8 max-w-3xl border-t-4 border-dashed border-neon-pink/50 px-4 py-10 text-center">
-        <p className="mb-3 font-display text-2xl tracking-wide text-neon-yellow animate-flicker">
-          ★ THANKS FOR PLAYING ★
-        </p>
-        <p className="font-body text-sm font-bold text-white/80">
-          tracking{" "}
+      <footer className="mt-6 border-t-[3px] border-ink bg-ink px-4 py-10 text-center text-cream">
+        <p className="font-display text-2xl font-bold">Thanks for playing ✌️</p>
+        <p className="mt-2 text-cream/80">
+          Tracking{" "}
           <a
             href="https://x.com/minchoi"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-neon-cyan underline decoration-neon-cyan/40 underline-offset-4 hover:text-neon-pink"
+            className="pop-link font-bold text-pop-yellow underline underline-offset-4 hover:text-pop-pink"
           >
             @minchoi
           </a>{" "}
           · built for fun · not affiliated 🦄
-        </p>
-        <p className="mt-3 font-pixel text-[8px] uppercase tracking-[0.25em] text-white/35 sm:text-[9px]">
-          wild-o-meter · meme energy only · no refunds
         </p>
       </footer>
     </main>
