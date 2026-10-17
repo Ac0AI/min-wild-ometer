@@ -3,13 +3,12 @@ import { readFile } from "fs/promises";
 import path from "path";
 import type { WildData } from "@/lib/types";
 import { formatSightingRelative } from "@/lib/format";
+import { WILD_GOAL, WILD_TIERS, tierIndex } from "@/lib/wildLevels";
 import StageGallery from "@/components/StageGallery";
 import SightingsList from "@/components/SightingsList";
 import WildAnthem from "@/components/WildAnthem";
 import WildGauge from "@/components/WildGauge";
 import WildMarquee from "@/components/WildMarquee";
-
-const WILD_GOAL = 1000;
 
 async function loadWildData(): Promise<WildData> {
   const file = path.join(process.cwd(), "public", "data", "wild.json");
@@ -20,21 +19,23 @@ async function loadWildData(): Promise<WildData> {
 function hypeCopy(count: number): { mood: string; line: string } {
   const left = Math.max(0, WILD_GOAL - count);
   if (count >= WILD_GOAL) {
-    return { mood: "🚨 ASCENDED", line: "1000 wilds. Min has broken the meter. Reality is optional now." };
+    return { mood: "🚨 Ascended", line: "1000 wilds. Min has broken the meter. Reality is optional now." };
   }
+  const tier = WILD_TIERS[tierIndex(count)];
+  const mood = `${tier.emoji} ${tier.label[0].toUpperCase()}${tier.label.slice(1)}`;
   if (count >= 950) {
-    return { mood: "🌋 Ultra wild", line: `Only ${left} to go — the meter is about to explode.` };
+    return { mood, line: `Only ${left} to go — the meter is about to explode.` };
   }
   if (count >= 900) {
-    return { mood: "🔥 Feral", line: `Just ${left} more until the legendary 1000. Hold onto your pixels.` };
+    return { mood, line: `Just ${left} more until the legendary 1000. Hold onto your pixels.` };
   }
   if (count >= 750) {
-    return { mood: "🌶️ Spicy", line: `${left} wilds left before Min goes nuclear.` };
+    return { mood, line: `${left} wilds left before Min goes nuclear.` };
   }
   if (count >= 500) {
-    return { mood: "👀 Warming up", line: `Past halfway — ${left} to go until 1000.` };
+    return { mood, line: `Past halfway — ${left} to go until 1000.` };
   }
-  return { mood: "😌 Chill", line: `Baseline vibes… for now. ${left} to go.` };
+  return { mood, line: `Baseline vibes… for now. ${left} to go.` };
 }
 
 const HOW_IT_WORKS = [
@@ -118,7 +119,7 @@ export default async function HomePage() {
         </div>
 
         {/* Portrait */}
-        <div className="relative mx-auto w-full max-w-sm md:max-w-md">
+        <div className="relative order-first mx-auto w-full max-w-[17rem] sm:max-w-sm md:order-none md:max-w-md">
           <div className="absolute inset-0 translate-x-4 translate-y-4 rotate-3 rounded-[2rem] bg-pop-purple" aria-hidden="true" />
           <div className="relative animate-float overflow-hidden rounded-[2rem] border-[3px] border-ink bg-white shadow-pop-lg">
             <div className="relative aspect-square">
@@ -149,6 +150,8 @@ export default async function HomePage() {
 
       <WildMarquee />
 
+      <SightingsList sightings={data.sightings} />
+
       {/* How it works */}
       <section className="mx-auto max-w-6xl px-4 py-14">
         <h2 className="mb-8 text-center font-display text-3xl font-bold sm:text-4xl">How it works</h2>
@@ -172,8 +175,6 @@ export default async function HomePage() {
           ))}
         </ol>
       </section>
-
-      <SightingsList sightings={data.sightings} />
 
       <StageGallery stages={data.stages} />
 

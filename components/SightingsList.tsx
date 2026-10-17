@@ -40,13 +40,12 @@ function SightingCard({ sighting, featured }: { sighting: WildSighting; featured
       rel="noopener noreferrer"
       className="pop-card pop-button pop-link flex h-full flex-col p-5"
     >
-      <div className="mb-3 flex items-center justify-between gap-2">
-        <time
-          dateTime={sighting.at}
-          title={`${absolute} (Madrid time)`}
-          className="pop-chip bg-pop-cyan !px-2.5 !py-0.5 text-sm !shadow-none"
-        >
-          🕒 {relative || absolute}
+      <div className="mb-3 flex items-start justify-between gap-2">
+        <time dateTime={sighting.at} className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span className="pop-chip bg-pop-cyan !px-2.5 !py-0.5 text-sm !shadow-none">
+            🕒 {relative || absolute}
+          </span>
+          {relative && <span className="text-sm font-semibold text-ink/60">{absolute}</span>}
         </time>
         {featured && <span className="text-2xl" aria-hidden="true">🔥</span>}
       </div>

@@ -1,11 +1,7 @@
 import type { CSSProperties } from "react";
+import { WILD_TIERS, gaugePosition } from "@/lib/wildLevels";
 
-const ZONES = [
-  { label: "chill", color: "#3ddcff" },
-  { label: "spicy", color: "#a6f04d" },
-  { label: "feral", color: "#ffd23f" },
-  { label: "ultra", color: "#ff4f9a" },
-];
+const ZONES = WILD_TIERS;
 
 const CX = 120;
 const CY = 120;
@@ -23,9 +19,9 @@ function arcPath(from: number, to: number) {
   return `M ${a.x} ${a.y} A ${R} ${R} 0 0 1 ${b.x} ${b.y}`;
 }
 
-/** Speedometer-style dial: needle points at count / goal. */
+/** Speedometer-style dial: needle points into the zone of the current mood tier. */
 export default function WildGauge({ count, goal }: { count: number; goal: number }) {
-  const pct = Math.min(1, Math.max(0, count / goal));
+  const pct = gaugePosition(count);
   const needleStyle = { "--needle-angle": `${pct * 180 - 90}deg` } as CSSProperties;
   const step = 1 / ZONES.length;
 
