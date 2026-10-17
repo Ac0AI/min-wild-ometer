@@ -1,35 +1,21 @@
 const PHRASES = [
-  "★ WILD ENERGY ★",
-  "🔥 HOW WILD IS MIN?!! 🔥",
-  "★ NEW!!! ★ MAXIMUM MUTATION",
-  "🎰 FEED THE METER 🎰",
-  "✨ NEON FOREVER ✨",
-  "💀 REALITY IS MELTING 💀",
-  "🌈 CARNIVAL CYBERPUNK TRASH 🌈",
-  "⚡ RGB SPLIT ENGAGED ⚡",
-  "🪩 HIT THE ANTHEM 🪩",
-  "🦄 STAGE 8 OR BUST 🦄",
-  "💥 NOT AFFILIATED · JUST VIBES 💥",
-  "🐉 HUE SLIPPING… 🐉",
+  "how wild is min?!",
+  "feed the meter",
+  "1000 or bust",
+  "every “wild” counts",
+  "reality is melting",
+  "not affiliated · just vibes",
 ];
 
-export default function WildMarquee({ reverse = false }: { reverse?: boolean }) {
-  const doubled = [...PHRASES, ...PHRASES];
+export default function WildMarquee() {
+  const doubled = [...PHRASES, ...PHRASES, ...PHRASES, ...PHRASES];
   return (
-    <div className="ticker-track relative z-20" aria-hidden="true">
-      <div
-        className="ticker-inner"
-        style={{
-          animationName: reverse ? "marqueeRev" : "marquee",
-          animationDuration: reverse ? "32s" : "28s",
-          animationTimingFunction: "linear",
-          animationIterationCount: "infinite",
-        }}
-      >
+    <div className="overflow-hidden border-y-[3px] border-ink bg-pop-yellow py-2" aria-hidden="true">
+      <div className="marquee-track animate-marquee">
         {doubled.map((p, i) => (
-          <span key={`${p}-${i}`}>
+          <span key={`${p}-${i}`} className="font-display text-lg font-semibold uppercase tracking-wide">
             {p}
-            <span className="mx-3 text-neon-yellow">✦</span>
+            <span className="mx-5 text-pop-pink">✦</span>
           </span>
         ))}
       </div>

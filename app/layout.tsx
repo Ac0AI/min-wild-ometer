@@ -1,42 +1,16 @@
 import type { Metadata } from "next";
-import {
-  Bangers,
-  Press_Start_2P,
-  Rubik_Wet_Paint,
-  JetBrains_Mono,
-  Comic_Neue,
-} from "next/font/google";
+import { Fredoka, Nunito } from "next/font/google";
 import "./globals.css";
 
-const display = Bangers({
-  weight: "400",
+const display = Fredoka({
+  weight: ["500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
 });
 
-const pixel = Press_Start_2P({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-pixel",
-  display: "swap",
-});
-
-const wet = Rubik_Wet_Paint({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-wet",
-  display: "swap",
-});
-
-const mono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  display: "swap",
-});
-
-const body = Comic_Neue({
-  weight: ["400", "700"],
+const body = Nunito({
+  weight: ["400", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
@@ -45,20 +19,20 @@ const body = Comic_Neue({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wild-ometer.local";
 
 export const metadata: Metadata = {
-  title: "★ WILD-O-METER ★ — How wild is Min?!!",
+  title: "Wild-O-Meter — How wild is Min?!",
   description:
-    "Live wild-level tracker for @minchoi. Huge mutated portrait, stage timeline 0→8, and recent wild sightings from X. Not affiliated. Built for fun. CARNIVAL CYBERPUNK TRASH ENERGY.",
+    "Live wild-level tracker for @minchoi. Every time Min says “wild”, the meter climbs and his portrait mutates. Not affiliated. Built for fun.",
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "★ WILD-O-METER ★ — WILD LEVEL LOCKED IN!!!",
+    title: "Wild-O-Meter — How wild is Min?!",
     description:
-      "Bold neon mutation meter. Current wild portrait, stages 0→8, and wild sightings. Tracking @minchoi · built for fun.",
+      "Every “wild” counts. Watch the meter climb toward 1000 and Min's portrait mutate. Tracking @minchoi · built for fun.",
     images: [
       {
-        url: "/min-wild-current.png",
+        url: "/min-wild-current.jpg",
         width: 1024,
         height: 1024,
-        alt: "Current MAXIMUM WILD mutated portrait",
+        alt: "Min's current wild portrait",
       },
     ],
     type: "website",
@@ -66,13 +40,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "★ WILD-O-METER ★",
-    description: "How wild is it getting out here? Check the meter. 🔥🎰✨",
-    images: ["/min-wild-current.png"],
+    title: "Wild-O-Meter",
+    description: "How wild is it getting out here? Check the meter. 🔥",
+    images: ["/min-wild-current.jpg"],
     creator: "@minchoi",
   },
   icons: {
-    icon: "/min-wild-8.png",
+    icon: "/min-wild-8.jpg",
   },
 };
 
@@ -82,13 +56,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${body.variable} ${mono.variable} ${display.variable} ${pixel.variable} ${wet.variable}`}
-    >
-      <body className="noise-bg scanlines vhs-flicker font-body antialiased">
-        {children}
-      </body>
+    <html lang="en" className={`${body.variable} ${display.variable}`}>
+      <body className="font-body antialiased">{children}</body>
     </html>
   );
 }
