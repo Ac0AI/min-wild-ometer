@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { WildSighting } from "@/lib/types";
 import { formatSightingRelative, formatSightingTime } from "@/lib/format";
+import RelativeTime from "@/components/RelativeTime";
 
 const FEATURED = 3;
 const CARD_TILTS = ["sm:-rotate-1", "sm:rotate-1", "sm:-rotate-[0.5deg]"];
@@ -30,7 +31,6 @@ function splitTweet(text: string) {
 
 function SightingCard({ sighting, featured }: { sighting: WildSighting; featured?: boolean }) {
   const { headline, rest } = splitTweet(sighting.text);
-  const relative = formatSightingRelative(sighting.at);
   const absolute = formatSightingTime(sighting.at);
 
   return (
@@ -43,9 +43,10 @@ function SightingCard({ sighting, featured }: { sighting: WildSighting; featured
       <div className="mb-3 flex items-start justify-between gap-2">
         <time dateTime={sighting.at} className="flex flex-wrap items-center gap-x-2 gap-y-1">
           <span className="pop-chip bg-pop-cyan !px-2.5 !py-0.5 text-sm !shadow-none">
-            🕒 {relative || absolute}
+            🕒{" "}
+            <RelativeTime iso={sighting.at} initial={formatSightingRelative(sighting.at)} fallback={absolute} />
           </span>
-          {relative && <span className="text-sm font-semibold text-ink/60">{absolute}</span>}
+          <span className="text-sm font-semibold text-ink/60">{absolute}</span>
         </time>
         {featured && <span className="text-2xl" aria-hidden="true">🔥</span>}
       </div>
