@@ -1,6 +1,6 @@
 {
-  "wildCount": 949,
-  "lastUpdated": "2026-10-14T07:36:24Z",
+  "wildCount": 950,
+  "lastUpdated": "2026-10-19T07:41:47Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2111471573395755295",
+      "text": "Just 48 hours ago Kling 4.0 opened to everyone.\n\nThese are not real🤯\n\n7 wild examples + PROMPTS:\n\n1. UGC character at brunch\n\nPROMPT: Raw vertical 9:16 video recorded on a phone's front camera (not on screen), one continuous 30-second take with no cuts. It looks like an ordinary https://t.co/pyzg7wITBK",
+      "url": "https://x.com/minchoi/status/2111471573395755295",
+      "at": "2026-10-17T14:57:06.000Z"
+    },
     {
       "id": "2110218145277395191",
       "text": "Google just dropped Gemini 4 Argon.\n\nMinds are blown. And people are already building insane 3D worlds and games with it.\n\n10 wild examples:",
@@ -133,12 +139,6 @@
       "text": "This AI is wild.\n\nYou can literally talk to a video now.\n\nAsk questions. Change the scene. Switch languages. Enter the world.\n\nACTx486 feels like a glimpse of a new medium.\nhttps://t.co/4PtDWfpbFI https://t.co/TjWV4jiK7P",
       "url": "https://x.com/minchoi/status/2103143947325587716",
       "at": "2026-09-24T15:26:06.000Z"
-    },
-    {
-      "id": "2102838725722198064",
-      "text": "This is wild.\n\nClaude just found something humans missed.\n\nIt spotted a hidden repeat pattern in raw bacteriophage DNA…\n\n…and uncovered a previously unknown enzyme system in bacteriophages with CRISPR-like repeats. 🤯\n\n950 agents. 21 hours. 210M tokens. https://t.co/ICU72H4mUS …",
-      "url": "https://x.com/minchoi/status/2102838725722198064",
-      "at": "2026-09-23T19:13:15.000Z"
     }
   ]
 }
