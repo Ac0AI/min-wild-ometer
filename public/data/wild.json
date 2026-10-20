@@ -1,6 +1,6 @@
 {
-  "wildCount": 950,
-  "lastUpdated": "2026-10-19T07:41:47Z",
+  "wildCount": 951,
+  "lastUpdated": "2026-10-20T07:39:19Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2112387195583799791",
+      "text": "Grok Bot might be the best $300/month employee ever.\n\nRunning multiple projects. Buying sold out iPhone 18 Pro Max. Figuring out how to pay for itself. Even asking for more work.\n\n10 wild examples:",
+      "url": "https://x.com/minchoi/status/2112387195583799791",
+      "at": "2026-10-20T03:35:28.000Z"
+    },
     {
       "id": "2111471573395755295",
       "text": "Just 48 hours ago Kling 4.0 opened to everyone.\n\nThese are not real🤯\n\n7 wild examples + PROMPTS:\n\n1. UGC character at brunch\n\nPROMPT: Raw vertical 9:16 video recorded on a phone's front camera (not on screen), one continuous 30-second take with no cuts. It looks like an ordinary https://t.co/pyzg7wITBK",
@@ -133,12 +139,6 @@
       "text": "It's only been just over 2 days since Anthropic dropped Opus 5.5\n\nAnd people can't stop getting creative with it.\n\n10 wild examples:",
       "url": "https://x.com/minchoi/status/2103461342413742428",
       "at": "2026-09-25T12:27:19.000Z"
-    },
-    {
-      "id": "2103143947325587716",
-      "text": "This AI is wild.\n\nYou can literally talk to a video now.\n\nAsk questions. Change the scene. Switch languages. Enter the world.\n\nACTx486 feels like a glimpse of a new medium.\nhttps://t.co/4PtDWfpbFI https://t.co/TjWV4jiK7P",
-      "url": "https://x.com/minchoi/status/2103143947325587716",
-      "at": "2026-09-24T15:26:06.000Z"
     }
   ]
 }
