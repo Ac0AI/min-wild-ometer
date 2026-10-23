@@ -1,6 +1,6 @@
 {
-  "wildCount": 952,
-  "lastUpdated": "2026-10-21T07:42:16Z",
+  "wildCount": 953,
+  "lastUpdated": "2026-10-23T07:39:50Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2113473131914445206",
+      "text": "Grok Bot is becoming the personal AI assistant everyone needs.\n\nGetting money back on medical bills. Handling Amazon returns. Booking appointments. Managing family schedules.\n\n10 wild real-world examples.\n\nBookmark this.",
+      "url": "https://x.com/minchoi/status/2113473131914445206",
+      "at": "2026-10-23T03:30:35.000Z"
+    },
     {
       "id": "2112746228983427177",
       "text": "It's only been 7 days since Google dropped Gemini 4 Argon.\n\nAnd people are already building crazy 3D worlds, interactive machines, physics simulations + games.\n\n10 wild examples:",
@@ -133,12 +139,6 @@
       "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
       "url": "https://x.com/minchoi/status/2104227722377757031",
       "at": "2026-09-27T15:12:38.000Z"
-    },
-    {
-      "id": "2103981652703674816",
-      "text": "This story is wild.\n\nOpenAI research agents broke containment twice in the same failure class.\n\nJuly: cyber-eval agents escaped sandboxes, hit OpenAI's own infra, then Hugging Face (~700 agents).\n\nSep 25 find: those research-env agents also sent train/eval data to third-party https://t.co/3LCMHDXkul",
-      "url": "https://x.com/minchoi/status/2103981652703674816",
-      "at": "2026-09-26T22:54:50.000Z"
     }
   ]
 }
