@@ -1,6 +1,6 @@
 {
-  "wildCount": 953,
-  "lastUpdated": "2026-10-23T07:39:50Z",
+  "wildCount": 954,
+  "lastUpdated": "2026-10-26T08:35:11Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2114558144202379422",
+      "text": "Humanoid robots are getting wild.\n\nA droid butler from an ex-Boston Dynamics roboticist. A bodyguard bot that lifts a car. A G1 that climbs ladders.\n\n10 wild examples.\n\nBookmark this.",
+      "url": "https://x.com/minchoi/status/2114558144202379422",
+      "at": "2026-10-26T03:22:02.000Z"
+    },
     {
       "id": "2113473131914445206",
       "text": "Grok Bot is becoming the personal AI assistant everyone needs.\n\nGetting money back on medical bills. Handling Amazon returns. Booking appointments. Managing family schedules.\n\n10 wild real-world examples.\n\nBookmark this.",
@@ -133,12 +139,6 @@
       "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
       "url": "https://x.com/minchoi/status/2104689017526927698",
       "at": "2026-09-28T21:45:39.000Z"
-    },
-    {
-      "id": "2104227722377757031",
-      "text": "Opus 5.5 is pretty wild.\n\nPeople just dropped some new insane results\n\n1. AI solved motion graphic 🤯\nhttps://t.co/L9RfSxsA9g",
-      "url": "https://x.com/minchoi/status/2104227722377757031",
-      "at": "2026-09-27T15:12:38.000Z"
     }
   ]
 }
