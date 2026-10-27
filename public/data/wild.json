@@ -1,6 +1,6 @@
 {
-  "wildCount": 954,
-  "lastUpdated": "2026-10-26T08:35:11Z",
+  "wildCount": 955,
+  "lastUpdated": "2026-10-27T08:34:13Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2114918246759682057",
+      "text": "What an insane day in AI.\n\nOpenAI claims major breakthroughs in math, CS + physics.\n\nAnthropic just filed for its IPO.\n\nGPT-6.1 Terra dropped.\n\n10 wild AI stories you don't want to miss:",
+      "url": "https://x.com/minchoi/status/2114918246759682057",
+      "at": "2026-10-27T03:12:57.000Z"
+    },
     {
       "id": "2114558144202379422",
       "text": "Humanoid robots are getting wild.\n\nA droid butler from an ex-Boston Dynamics roboticist. A bodyguard bot that lifts a car. A G1 that climbs ladders.\n\n10 wild examples.\n\nBookmark this.",
@@ -133,12 +139,6 @@
       "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
       "url": "https://x.com/minchoi/status/2105404424923291887",
       "at": "2026-09-30T21:08:26.000Z"
-    },
-    {
-      "id": "2104689017526927698",
-      "text": "Kling 4.0 officially launches this October.\n\n30s video. Up to 15 refs. 4K HDR. Better audio + lip sync.\n\n6 wild examples + prompts.\n\nBookmark this ↓",
-      "url": "https://x.com/minchoi/status/2104689017526927698",
-      "at": "2026-09-28T21:45:39.000Z"
     }
   ]
 }
