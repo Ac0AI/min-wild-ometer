@@ -1,6 +1,6 @@
 {
-  "wildCount": 955,
-  "lastUpdated": "2026-10-27T08:34:13Z",
+  "wildCount": 956,
+  "lastUpdated": "2026-10-28T08:36:08Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2115134572811931792",
+      "text": "Holy smokes. Google just revealed Genie 4.\n\nPhotorealistic AI worlds you can explore in REAL TIME.\n\nWalk around. Talk to characters. Change scenes with prompts.\n\n10 wild examples + prompts. ↓\n\n1. Immersive first person POV dragon flight https://t.co/xiCrkUksoE",
+      "url": "https://x.com/minchoi/status/2115134572811931792",
+      "at": "2026-10-27T17:32:34.000Z"
+    },
     {
       "id": "2114918246759682057",
       "text": "What an insane day in AI.\n\nOpenAI claims major breakthroughs in math, CS + physics.\n\nAnthropic just filed for its IPO.\n\nGPT-6.1 Terra dropped.\n\n10 wild AI stories you don't want to miss:",
@@ -133,12 +139,6 @@
       "text": "Game dev will never be the same...\n\nOpus 5.5 is building full games, 3D worlds, music videos + more.\n\n10 wild examples:",
       "url": "https://x.com/minchoi/status/2105685231298630009",
       "at": "2026-10-01T15:44:15.000Z"
-    },
-    {
-      "id": "2105404424923291887",
-      "text": "Google just dropped Gemini 4 Argon.\n\n1M token OUTPUT limit.\n\nCoding, finance, legal + cyber workflows in one run.\n\nThis is wild 🤯 https://t.co/PalPK4KQC8 https://t.co/l8L8VxH1pV",
-      "url": "https://x.com/minchoi/status/2105404424923291887",
-      "at": "2026-09-30T21:08:26.000Z"
     }
   ]
 }
