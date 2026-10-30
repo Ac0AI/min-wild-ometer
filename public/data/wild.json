@@ -1,6 +1,6 @@
 {
-  "wildCount": 956,
-  "lastUpdated": "2026-10-28T08:36:08Z",
+  "wildCount": 957,
+  "lastUpdated": "2026-10-30T08:33:53Z",
   "currentImage": "/min-wild-current.jpg",
   "stages": [
     {
@@ -50,6 +50,12 @@
     }
   ],
   "sightings": [
+    {
+      "id": "2116009919443087477",
+      "text": "Ok.. this is wild...\n\nOpenAI was about to cut Pro 200 usage in HALF.\n\nInstead they just CANCELLED the cut and DOUBLED limits on every Pro tier 😂 https://t.co/XamyNM0wYO https://t.co/OcyyGgffGK",
+      "url": "https://x.com/minchoi/status/2116009919443087477",
+      "at": "2026-10-30T03:30:53.000Z"
+    },
     {
       "id": "2115134572811931792",
       "text": "Holy smokes. Google just revealed Genie 4.\n\nPhotorealistic AI worlds you can explore in REAL TIME.\n\nWalk around. Talk to characters. Change scenes with prompts.\n\n10 wild examples + prompts. ↓\n\n1. Immersive first person POV dragon flight https://t.co/xiCrkUksoE",
@@ -133,12 +139,6 @@
       "text": "Creative pipeline is about to change forever.\n\nOpus 5.5 is building the games, 3D worlds, the videos + the ads.\n\n10 wild examples. Bookmark this.",
       "url": "https://x.com/minchoi/status/2106584499719180293",
       "at": "2026-10-04T03:17:37.000Z"
-    },
-    {
-      "id": "2105685231298630009",
-      "text": "Game dev will never be the same...\n\nOpus 5.5 is building full games, 3D worlds, music videos + more.\n\n10 wild examples:",
-      "url": "https://x.com/minchoi/status/2105685231298630009",
-      "at": "2026-10-01T15:44:15.000Z"
     }
   ]
 }
